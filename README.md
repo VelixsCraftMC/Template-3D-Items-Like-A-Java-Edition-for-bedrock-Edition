@@ -14,6 +14,7 @@ Create 3D-style items just like in Minecraft Java Edition using OptiFine. This t
 
 
 > Guide Scale Models (Click ->)
+> 
 https://github.com/user-attachments/assets/3841be48-6362-4953-b43a-e6517fbf32cc
 
 
@@ -29,13 +30,19 @@ https://github.com/user-attachments/assets/3841be48-6362-4953-b43a-e6517fbf32cc
 > **Animated Textures (Frame 3d Items)**
 
 <img width="1640" height="720" alt="Screenshot_20260201-191003" src="https://github.com/user-attachments/assets/994f1015-a33f-4cbd-aa57-070156c7f80e" />
-video: https://github.com/user-attachments/assets/14c4369a-2b42-4fb7-a736-3ee013d3f965
+video:
+
+https://github.com/user-attachments/assets/14c4369a-2b42-4fb7-a736-3ee013d3f965
 
 <img width="1640" height="720" alt="Screenshot_20260201-190947" src="https://github.com/user-attachments/assets/c6d38c76-5150-4b79-a96c-7144bfc54e92" />
-video: https://github.com/user-attachments/assets/011123a6-6efe-47f1-9f51-065ed85d9a87
+video:
+
+https://github.com/user-attachments/assets/011123a6-6efe-47f1-9f51-065ed85d9a87
 
 <img width="1640" height="720" alt="Screenshot_20260201-191037" src="https://github.com/user-attachments/assets/7976a02b-08c6-4f66-8f53-018b674b8f4f" />
-video: https://github.com/user-attachments/assets/1c215a2a-a09e-45f4-8242-1145524ae368
+video:
+
+https://github.com/user-attachments/assets/1c215a2a-a09e-45f4-8242-1145524ae368
 
 ## Code Preview
 
