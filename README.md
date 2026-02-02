@@ -1,5 +1,8 @@
 # Template: 3D Items Like OptiFine for Bedrock Edition
 
+<img width="1937" height="333" alt="title" src="https://github.com/user-attachments/assets/17681633-826b-4e63-9ec0-f7ff271d84d2" />
+
+
 [![activity](https://img.shields.io/github/commit-activity/m/MojoLauncher/MojoLauncher)](https://github.com/VelixsCraftMC/Template-3D-Items-Like-A-Java-Edition-for-bedrock-Edition/activity)
 
 ---
