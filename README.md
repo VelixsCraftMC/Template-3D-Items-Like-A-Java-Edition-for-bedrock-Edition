@@ -1,10 +1,14 @@
 # Template: 3D Items Like OptiFine for Bedrock Edition
 
+---
+
 <img width="1937" height="333" alt="title" src="https://github.com/user-attachments/assets/17681633-826b-4e63-9ec0-f7ff271d84d2" />
 
 
 [![activity](https://img.shields.io/github/commit-activity/m/MojoLauncher/MojoLauncher)](https://github.com/VelixsCraftMC/Template-3D-Items-Like-A-Java-Edition-for-bedrock-Edition/activity)
 
+
+> Create 3D-style items just like in Minecraft Java Edition using OptiFine. This template allows items to appear fully 3D, similar to OptiFine features, by using a resource pack with item renaming or CIT.
 ---
 
 Items, weapons, and blocks are displayed with full visual models in the inventory, container slots, chests, shulkers, hotbar, on the ground, in item frames, first-person view, third-person view, and also when dropped — all rendered in 3D.
