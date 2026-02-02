@@ -1,90 +1,97 @@
-# Template-3D-Items-Like-A-Java-Edition-for-bedrock-Edition
-Create 3D-style items just like in Minecraft Java Edition using OptiFine. This template allows items to appear fully 3D, similar to OptiFine features, by using a resource pack with item renaming or CIT.
+# Template: 3D Items Like OptiFine for Bedrock Edition
 
-**Support Minecraft version**
-1.21.130 / 1.21.131 / 1.21.132
-(Recommend) > Beta / Priview
+---
 
-> Support Type: equipment, blocks, items, and more
+Items, weapons, and blocks are displayed with full visual models in the inventory, container slots, chests, shulkers, hotbar, on the ground, in item frames, first-person view, third-person view, and also when dropped — all rendered in 3D.
 
-> Guide Edit  you're Models:
-![IMG-20260131-WA0004](https://github.com/user-attachments/assets/de8356f4-c9dc-4243-a3e5-6ac8a864e040)
-![IMG-20260131-WA0005](https://github.com/user-attachments/assets/6887078b-dd9f-425e-880e-1a1b938d7afe)
-![IMG-20260131-WA0006](https://github.com/user-attachments/assets/76fdbaa8-5056-46b3-9e33-86054d3aea44)
+---
+
+## Screenshots
+
+---
+
+This will look similar to Minecraft: Java Edition when using OptiFine with a resource pack that changes item models. It can support 3D visuals, glow effects, and animations. I found a method to make this work in Minecraft: Bedrock Edition, although there are still some limitations.
+
+I’ve created this and you can use it as a template. Please don’t forget to credit me — you can use my name, GitHub, or YouTube channel. Also, please review the license information below:
+
+- Licence:
+
+![Indonesia](https://github.com/user-attachments/assets/fe195911-9b5b-40cc-bd77-d854f073fa51)
+![English](https://github.com/user-attachments/assets/53b07280-e127-4a5b-943d-27b8c95f7d11)
 
 
-> Guide Scale Models (Click ->)
-> 
-https://github.com/user-attachments/assets/3841be48-6362-4953-b43a-e6517fbf32cc
+- YouTube:
+
+https://www.youtube.com/@velixsaxy
+
+---
+
+## Currently Supported
+
+Below is a checklist of the template’s current features:
+
+- (✓) 3D support across slots, item frames, and ground items  
+- (✓) Animated texture support  
+
+- (×) Glow in the dark (Next update)  
+  *(With Vibrant Visuals)*
+
+- (×) Glow in the dark (Next update)  
+  *(Without Vibrant Visuals — glow will not work in item frames, shelves, inventory, or containers)*
+
+- (×) Double geometry (Next update)  
+- (×) Double textures (Next update)  
+- (×) Render method improvements (Next update)  
+- (×) Item outlines (Next update)  
+- (×) Rename items in anvil (Next update)
+
+More templates may be added here later to support the growth of free MMORPG-style addons that are accessible to everyone.
+
+---
+
+## Usage Guide
+
+### Guide #1 — How to Create a Compatible Model
+Screenshot
+
+![543269888-de8356f4-c9dc-4243-a3e5-6ac8a864e040](https://github.com/user-attachments/assets/6c2d35af-22e7-4ea6-933b-83f0a5ef7e35)
+![543269894-6887078b-dd9f-425e-880e-1a1b938d7afe](https://github.com/user-attachments/assets/ec44be32-2cba-4fbf-b638-8540320fc3cc)
+![543269895-76fdbaa8-5056-46b3-9e33-86054d3aea44](https://github.com/user-attachments/assets/52163859-5df9-4778-963c-cd146ea8c9b0)
+![543270429-f4e593da-fa62-40c9-8ce3-1065409398e6](https://github.com/user-attachments/assets/d22c4c21-5d5a-489a-95f0-97095d3a5eaa)
+![543270437-9e771c02-21ec-49c0-9f84-76a7b496a5c3](https://github.com/user-attachments/assets/475d3324-2209-4495-8bb6-b796b5e13c92)
 
 
-> If you’ve already edited or made the models, go ahead and do this!
-![IMG-20260131-WA0007](https://github.com/user-attachments/assets/f4e593da-fa62-40c9-8ce3-1065409398e6)
-![IMG-20260131-WA0008](https://github.com/user-attachments/assets/9e771c02-21ec-49c0-9f84-76a7b496a5c3)
+---
 
-**This is the final result, and don’t forget to enable all experimental features to prevent errors in the add-ons!**
+### Guide #2 — How to Create Animated Textures
+(Under construction)
 
-> See:
-<img width="1640" height="720" alt="Screenshot_20260131-205631" src="https://github.com/user-attachments/assets/76ff8cc6-56b1-4137-b3ab-af2787c87f0f" />
+---
 
-> **Animated Textures (Frame 3d Items)**
+### Guide #3 — How to Scale Down a Model
 
-<img width="1640" height="720" alt="Screenshot_20260201-191003" src="https://github.com/user-attachments/assets/994f1015-a33f-4cbd-aa57-070156c7f80e" />
-video:
 
-https://github.com/user-attachments/assets/14c4369a-2b42-4fb7-a736-3ee013d3f965
+https://github.com/user-attachments/assets/0deb7109-b497-4196-a38e-f71c795ba3aa
 
-<img width="1640" height="720" alt="Screenshot_20260201-190947" src="https://github.com/user-attachments/assets/c6d38c76-5150-4b79-a96c-7144bfc54e92" />
-video:
 
-https://github.com/user-attachments/assets/011123a6-6efe-47f1-9f51-065ed85d9a87
 
-<img width="1640" height="720" alt="Screenshot_20260201-191037" src="https://github.com/user-attachments/assets/7976a02b-08c6-4f66-8f53-018b674b8f4f" />
-video:
+---
 
-https://github.com/user-attachments/assets/1c215a2a-a09e-45f4-8242-1145524ae368
+## Creator Notes
 
-## Code Preview
+**#1 VelixsCraftMCYT:**  
+Sorry — update schedules will now be set to 2 updates per week for this template. I’m busy with real-world responsibilities and can’t push daily updates. Each change requires experimentation and coding time.
 
-### flipbook_textures.json
-```json
-[
-    {
-        "flipbook_texture": "textures/items/rave_sword",
-        "atlas_tile": "rave_sword",
-        "ticks_per_frame": 3,
-        "blend_frames": false
-    }
-]
-```
+**#2 VelixsCraftMCYT:**  
+The license allows you to use this template for large projects. Paid or premium addon projects are allowed. Donations are welcome — even small support helps. Around $2 is already meaningful support (or local equivalent). It helps fund further template development.
 
-### item_texture.json
-```json
-{
-    "resource_pack_name": "vanilla",
-    "texture_name": "atlas.items",
-    "texture_data": {
-        "rave_sword": {
-            "textures": "textures/items/rave_sword"
-        }
-    }
-}
-```
+Donation link:
 
-### terrain_textures.json
-```json
-{
-    "resource_pack_name": "vanilla",
-    "texture_name": "atlas.terrain",
-    "padding": 8,
-    "num_mip_levels": 4,
-    "texture_data": {
-        "frost_slayer": {
-            "textures": "textures/items/frost_slayer"
-        },
-        "rave_sword": {
-            "textures": "textures/items/rave_sword"
-        }
-    }
-}
-```
+**#3 VelixsCraftMCYT:**  
+I’m looking for contributors who can build Bedrock addons. Please contact me if you want to help — GitHub experience is required so we can collaborate and improve this template together.
+
+---
+
+## Latest Template Version
+
+Link
