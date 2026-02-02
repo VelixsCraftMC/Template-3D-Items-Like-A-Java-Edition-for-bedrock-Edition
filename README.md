@@ -1,5 +1,7 @@
 # Template: 3D Items Like OptiFine for Bedrock Edition
 
+[![activity](https://img.shields.io/github/commit-activity/m/MojoLauncher/MojoLauncher)](https://github.com/VelixsCraftMC/Template-3D-Items-Like-A-Java-Edition-for-bedrock-Edition/activity)
+
 ---
 
 Items, weapons, and blocks are displayed with full visual models in the inventory, container slots, chests, shulkers, hotbar, on the ground, in item frames, first-person view, third-person view, and also when dropped — all rendered in 3D.
