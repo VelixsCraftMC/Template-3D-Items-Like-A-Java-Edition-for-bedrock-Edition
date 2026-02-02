@@ -94,4 +94,4 @@ I’m looking for contributors who can build Bedrock addons. Please contact me i
 
 ## Latest Template Version
 
-Link
+https://github.com/VelixsCraftMC/Template-3D-Items-Like-A-Java-Edition-for-bedrock-Edition/releases/tag/release
