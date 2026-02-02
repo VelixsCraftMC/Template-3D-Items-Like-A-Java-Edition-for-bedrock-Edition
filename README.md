@@ -8,6 +8,9 @@ Items, weapons, and blocks are displayed with full visual models in the inventor
 
 ## Screenshots
 
+<img width="1640" height="720" alt="Screenshot_20260201-190941" src="https://github.com/user-attachments/assets/cf9b924d-7280-4bab-94bf-0ab236990f08" />
+
+
 ---
 
 This will look similar to Minecraft: Java Edition when using OptiFine with a resource pack that changes item models. It can support 3D visuals, glow effects, and animations. I found a method to make this work in Minecraft: Bedrock Edition, although there are still some limitations.
@@ -30,8 +33,8 @@ https://www.youtube.com/@velixsaxy
 
 Below is a checklist of the template’s current features:
 
-- (✓) 3D support across slots, item frames, and ground items  
-- (✓) Animated texture support  
+- (✓) ~3D support across slots, item frames, and ground items~
+- (✓) ~Animated texture support~
 
 - (×) Glow in the dark (Next update)  
   *(With Vibrant Visuals)*
