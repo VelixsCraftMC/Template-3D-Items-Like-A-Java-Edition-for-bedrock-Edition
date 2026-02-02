@@ -22,10 +22,7 @@ I’ve created this and you can use it as a template. Please don’t forget to c
 ![Indonesia](https://github.com/user-attachments/assets/fe195911-9b5b-40cc-bd77-d854f073fa51)
 ![English](https://github.com/user-attachments/assets/53b07280-e127-4a5b-943d-27b8c95f7d11)
 
-
-- YouTube:
-
-https://www.youtube.com/@velixsaxy
+- *YouTube: https://www.youtube.com/@velixsaxy*
 
 ---
 
@@ -33,20 +30,20 @@ https://www.youtube.com/@velixsaxy
 
 Below is a checklist of the template’s current features:
 
-- (✓) ~3D support across slots, item frames, and ground items~
-- (✓) ~Animated texture support~
+- [x] ~3D support across slots, item frames, and ground items~
+- [x] ~Animated texture support~
 
-- (×) Glow in the dark (Next update)  
-  *(With Vibrant Visuals)*
+- [ ] Glow in the dark (Next update)  
+> *(With Vibrant Visuals)*
 
-- (×) Glow in the dark (Next update)  
-  *(Without Vibrant Visuals — glow will not work in item frames, shelves, inventory, or containers)*
+- [ ] Glow in the dark (Next update)  
+> *(Without Vibrant Visuals — glow will not work in item frames, shelves, inventory, or containers)*
 
-- (×) Double geometry (Next update)  
-- (×) Double textures (Next update)  
-- (×) Render method improvements (Next update)  
-- (×) Item outlines (Next update)  
-- (×) Rename items in anvil (Next update)
+- [ ] Double geometry (Next update)  
+- [ ] Double textures (Next update)  
+- [ ] Render method improvements (Next update) 
+- [ ] Item outlines (Next update)  
+- [ ] Rename items in anvil (Next update)
 
 More templates may be added here later to support the growth of free MMORPG-style addons that are accessible to everyone.
 
