@@ -63,24 +63,35 @@ More templates may be added here later to support the growth of free MMORPG-styl
 ### Guide #1 — How to Create a Compatible Model
 Screenshot
 
-![543269888-de8356f4-c9dc-4243-a3e5-6ac8a864e040](https://github.com/user-attachments/assets/6c2d35af-22e7-4ea6-933b-83f0a5ef7e35)
-![543269894-6887078b-dd9f-425e-880e-1a1b938d7afe](https://github.com/user-attachments/assets/ec44be32-2cba-4fbf-b638-8540320fc3cc)
-![543269895-76fdbaa8-5056-46b3-9e33-86054d3aea44](https://github.com/user-attachments/assets/52163859-5df9-4778-963c-cd146ea8c9b0)
-![543270429-f4e593da-fa62-40c9-8ce3-1065409398e6](https://github.com/user-attachments/assets/d22c4c21-5d5a-489a-95f0-97095d3a5eaa)
-![543270437-9e771c02-21ec-49c0-9f84-76a7b496a5c3](https://github.com/user-attachments/assets/475d3324-2209-4495-8bb6-b796b5e13c92)
+<img width="628" height="387" alt="1" src="https://github.com/user-attachments/assets/692d94ae-41b2-48c5-a18a-67e06c955840" />
+<img width="628" height="387" alt="2" src="https://github.com/user-attachments/assets/0ab5468a-2d00-4b51-a2e3-d1e1ec5c6059" />
+<img width="628" height="387" alt="3" src="https://github.com/user-attachments/assets/87deeb62-0e4c-4b82-9f46-86aa3de6fee5" />
+<img width="628" height="387" alt="4" src="https://github.com/user-attachments/assets/6471826b-a54c-4755-b4f3-c59ac6844b89" />
+<img width="628" height="387" alt="5" src="https://github.com/user-attachments/assets/897fba0a-d2bb-47d1-a9eb-2b2a5f575e88" />
+<img width="351" height="628" alt="6" src="https://github.com/user-attachments/assets/26e049f5-fb5e-41b7-bd78-86deb5356d75" />
+<img width="628" height="387" alt="7" src="https://github.com/user-attachments/assets/84dee76a-7510-4a79-93c2-3a9d571ac6f9" />
+<img width="628" height="387" alt="8" src="https://github.com/user-attachments/assets/1522ffd7-487f-4837-b0f3-3b229b9de28b" />
 
 
 ---
 
 ### Guide #2 — How to Create Animated Textures
-(Under construction)
+
+
+
+https://github.com/user-attachments/assets/d420556d-6a7f-42e1-8bcd-3ae80ad072bb
+
+
 
 ---
 
 ### Guide #3 — How to Scale Down a Model
 
-
-https://github.com/user-attachments/assets/0deb7109-b497-4196-a38e-f71c795ba3aa
+<img width="628" height="387" alt="1" src="https://github.com/user-attachments/assets/914cf4ad-c867-4bb8-be4d-f6f61a58e41f" />
+<img width="628" height="387" alt="2" src="https://github.com/user-attachments/assets/4fc0891a-f6d7-4af5-be30-b348e1013d43" />
+<img width="628" height="386" alt="3" src="https://github.com/user-attachments/assets/fa828bde-7b26-4772-bd70-7b5c49444590" />
+<img width="628" height="387" alt="4" src="https://github.com/user-attachments/assets/6f3fd0f1-a6c2-410e-98c9-13819ace1b69" />
+<img width="372" height="628" alt="5" src="https://github.com/user-attachments/assets/e11484aa-4aac-4b28-bd07-2ff5b6e2d513" />
 
 
 
