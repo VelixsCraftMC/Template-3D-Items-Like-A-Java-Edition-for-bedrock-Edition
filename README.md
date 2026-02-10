@@ -10,10 +10,11 @@
 
 > Create 3D-style items just like in Minecraft Java Edition using OptiFine. This template allows items to appear fully 3D, similar to OptiFine features, by using a resource pack with item renaming or CIT.
 ---
-> Next Update:
+> [New Final Update - Glowing 3D]
 
 <img width="1640" height="720" alt="Screenshot_20260209-132254" src="https://github.com/user-attachments/assets/ac3e415e-c38d-4068-891c-20530af758db" />
 
+> no longer getting new updates (because all 3D features are already there, this will continue to support the latest version)
 
 ---
 
@@ -45,14 +46,9 @@ I’ve created this and you can use it as a template. Please don’t forget to c
 
 Below is a checklist of the template’s current features:
 
-- [x] ~3D support across slots, item frames, and ground items~
-- [x] ~Animated texture support~
-
-- [ ] Glow in the dark (Next update)  
-> *(With Vibrant Visuals)*
-
-- [ ] Glow in the dark (Next update)  
-> *(Without Vibrant Visuals — glow will not work in item frames, shelves, inventory, or containers)*
+- [x] ~3D support across slots, item frames, and ground items~ ✓
+- [x] ~Animated texture support~ ✓
+- [X] ~Glow in the dark~ ✓
 
 - [ ] Double geometry (Next update)  
 - [ ] Double textures (Next update)  
