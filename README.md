@@ -87,9 +87,74 @@ Screenshot
 
 https://github.com/user-attachments/assets/d420556d-6a7f-42e1-8bcd-3ae80ad072bb
 
+> Indonesian:
 
+# 📘 Konfigurasi Animasi Texture (Minecraft Bedrock)
+
+## flipbook_textures.json — khusus animasi
+
+Masukkan frame hasil copy dari Blockbench ke file ini.
+
+```json
+[
+  {
+    "flipbook_texture": "textures/items/rave_sword",
+    "atlas_tile": "rave_sword",
+    "ticks_per_frame": 3,
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/items/contoh",
+    "atlas_tile": "contoh",
+    "ticks_per_frame": 3,
+    "blend_frames": false
+  }
+]
+```
 
 ---
+
+## item_texture.json — khusus item animasi
+
+Tambahkan entry texture animasi di bagian `texture_data`.
+
+```json
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "rave_sword": {
+      "textures": "textures/items/rave_sword"
+    },
+    "contoh": {
+      "textures": "textures/items/contoh"
+    }
+  }
+}
+```
+
+---
+
+## terrain_texture.json — blok non-animasi & animasi
+
+Gunakan untuk blok. Texture animasi tetap harus didaftarkan di atlas terrain jika dipakai di blok.
+
+```json
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "rave_sword": {
+      "textures": "textures/items/rave_sword"
+    },
+    "contoh": {
+      "textures": "textures/items/contoh"
+    }
+  }
+}
+```
 
 ### Guide #3 — How to Scale Down a Model
 
