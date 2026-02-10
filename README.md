@@ -50,11 +50,12 @@ Below is a checklist of the template’s current features:
 - [x] ~Animated texture support~ ✓
 - [X] ~Glow in the dark~ ✓
 
-- [ ] Double geometry (Next update)  
-- [ ] Double textures (Next update)  
-- [ ] Render method improvements (Next update) 
-- [ ] Item outlines (Next update)  
 - [ ] Rename items in anvil (Next update)
+- [ ] Cosmetic/Armir Animated Frame Like A Java
+- [ ] Mibrowser / Magicosmetic
+- [ ] Double geometry
+- [ ] Double textures
+- [ ] 3D? Item outlines (Next update)  
 
 More templates may be added here later to support the growth of free MMORPG-style addons that are accessible to everyone.
 
