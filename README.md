@@ -10,6 +10,12 @@
 
 > Create 3D-style items just like in Minecraft Java Edition using OptiFine. This template allows items to appear fully 3D, similar to OptiFine features, by using a resource pack with item renaming or CIT.
 ---
+> Next Update:
+
+<img width="1640" height="720" alt="Screenshot_20260209-132254" src="https://github.com/user-attachments/assets/ac3e415e-c38d-4068-891c-20530af758db" />
+
+
+---
 
 Items, weapons, and blocks are displayed with full visual models in the inventory, container slots, chests, shulkers, hotbar, on the ground, in item frames, first-person view, third-person view, and also when dropped — all rendered in 3D.
 
