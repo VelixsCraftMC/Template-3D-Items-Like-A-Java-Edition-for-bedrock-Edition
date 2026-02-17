@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ezoraa Add-ons Assets</title>
+    <!-- Google Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="brand">EZORAA</div>
+        <div class="header-actions">
+            <button class="btn-menu" aria-expanded="false" aria-controls="sidebar"><span class="material-icons">menu</span></button>
+            <button id="btn-settings" class="btn-icon" title="Settings" aria-haspopup="dialog"><span class="material-icons">settings</span></button>
+        </div>
+    </header>
+
+    <div class="overlay" id="overlay" aria-hidden="true"></div>
+
+    <aside class="sidebar" id="sidebar" role="navigation" aria-label="Sidebar navigation">
+        <div class="title-row">
+            <div class="logo">EZORAA</div>
+            <button class="theme-toggle" id="theme-toggle" title="Toggle theme">Theme</button>
+        </div>
+        <nav class="nav-list" role="menu" aria-label="Main">
+            <div class="nav-item active" data-target="creator" role="button" tabindex="0"><span class="material-icons">person</span> Creator</div>
+            <div class="nav-item" data-target="template" role="button" tabindex="0"><span class="material-icons">extension</span> Templates</div>
+            <div class="nav-item" data-target="guide" role="button" tabindex="0"><span class="material-icons">menu_book</span> Panduan</div>
+            <div class="nav-item" data-target="license" role="button" tabindex="0"><span class="material-icons">gavel</span> Lisensi</div>
+        </nav>
+
+        <div class="side-section">
+            <div class="side-title">Hubungi</div>
+            <a id="side-discord" class="btn-social" href="#" target="_blank" rel="noopener noreferrer"><span class="material-icons">chat</span> Discord</a>
+            <a id="side-whatsapp" class="btn-social" href="#" target="_blank" rel="noopener noreferrer"><span class="material-icons">sms</span> WhatsApp</a>
+        </div>
+
+        <div class="side-foot">v1.0 • VelixsCraftMC</div>
+    </aside>
+
+    <main>
+        <!-- CREATOR SECTION -->
+        <section id="creator" class="section active">
+            <div class="creator-banner" role="region" aria-label="Banner creator">
+                <div class="left">
+                    <div class="title" id="banner-title">Velixsaxy</div>
+                    <div class="subtitle" id="banner-sub">Minecraft Add-ons • Performance & Minimal UI</div>
+                </div>
+                <div class="creator-socials">
+                    <a id="banner-discord" class="btn-social" href="#" target="_blank" rel="noopener noreferrer"><span class="material-icons">chat</span> Dc</a>
+                    <a id="banner-whatsapp" class="btn-social" href="#" target="_blank" rel="noopener noreferrer"><span class="material-icons">sms</span> Wa</a>
+                </div>
+            </div>
+
+            <div class="creator-header">
+                <div class="channel-banner" aria-hidden="true">
+                    <img src="banner.webp" alt="Channel banner" loading="lazy" />
+                </div>
+
+                <img id="c-pfp" src="" class="creator-pfp" alt="Creator profile picture" loading="lazy" />
+                <h1 id="c-name" class="creator-name"></h1>
+                <a id="c-sub" href="#" target="_blank" class="sub-btn" rel="noopener noreferrer"><span class="material-icons">subscriptions</span> SUBSCRIBE</a>
+            </div>
+
+            <div id="c-content" class="creator-content"></div>
+            <div id="c-video" class="creator-video"></div>
+
+            <!-- Video controls (only open youtube left) -->
+            <div id="c-video-controls" class="controls">
+                <a id="open-youtube" class="btn-dl btn-secondary" href="#" target="_blank" rel="noopener noreferrer">Buka di YouTube</a>
+            </div>
+        </section>
+
+        <!-- LIST SECTION -->
+        <section id="list-view" class="section" aria-live="polite">
+            <h1 id="view-title" class="view-title"></h1>
+            <div class="controls-row">
+                <input type="text" id="search" placeholder="Cari..." aria-label="Cari postingan" />
+                <select id="sort" aria-label="Filter tipe">
+                    <option value="all">Semua</option>
+                    <option value="addons">Add-ons</option>
+                    <option value="utility">Utility</option>
+                </select>
+            </div>
+            <div id="list-container" class="card-grid" role="list"></div>
+        </section>
+
+        <!-- DETAIL SECTION -->
+        <section id="detail-view" class="section" aria-live="polite">
+            <div class="back" role="button" tabindex="0"><span class="material-icons">arrow_back</span> KEMBALI</div>
+            <div id="detail-content" class="detail-content"></div>
+        </section>
+
+        <!-- LICENSE SECTION -->
+        <section id="license" class="section">
+            <h1>Lisensi</h1>
+            <div id="license-content" class="card" style="cursor:default"></div>
+        </section>
+    </main>
+
+    <!-- Mobile bottom navigation -->
+    <nav class="mobile-nav" role="navigation" aria-label="Navigasi seluler" id="mobile-nav">
+        <button data-target="creator" class="mob-btn" aria-current="true" title="Creator"><span class="material-icons">person</span><small>Creator</small></button>
+        <button data-target="template" class="mob-btn" title="Templates"><span class="material-icons">extension</span><small>Templates</small></button>
+        <button data-target="guide" class="mob-btn" title="Panduan"><span class="material-icons">menu_book</span><small>Panduan</small></button>
+        <button data-target="license" class="mob-btn" title="Lisensi"><span class="material-icons">gavel</span><small>Lisensi</small></button>
+    </nav>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+
+    <!-- SETTINGS DIALOG -->
+    <div id="settings" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-card">
+            <header class="modal-header">
+                <h2>Settings</h2>
+                <button id="close-settings" class="btn-icon"><span class="material-icons">close</span></button>
+            </header>
+            <div class="modal-body">
+                <div class="setting-row">
+                    <label>Tema</label>
+                    <div>
+                        <button id="theme-dark" class="btn-small">Dark</button>
+                        <button id="theme-light" class="btn-small">Light</button>
+                    </div>
+                </div>
+                <div class="setting-row">
+                    <label>iOS Style</label>
+                    <input type="checkbox" id="setting-ios" />
+                </div>
+                <div class="setting-row">
+                    <label>Compact Mode</label>
+                    <input type="checkbox" id="setting-compact" />
+                </div>
+                <div class="setting-row">
+                    <label>Reduced Animations</label>
+                    <input type="checkbox" id="setting-reduced" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script (external) -->
+    <script src="script.js" defer></script>
+</body>
+      </html>
